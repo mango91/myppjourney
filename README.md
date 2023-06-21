@@ -13,3 +13,5 @@ There are several ways to clear text input fields in PowerApps. One way is to us
 You can also clear the text input using context variables. Set the Default property of the text box to a variable and use the UpdateContext function on the OnSelect property of the submit button1. You can also set the Default property to a value that will reset the input, such as an empty string1. Finally, you can create a variable and use it in the Reset property of the text input, and then update the variable using the UpdateContext function1.
 
 How to create Menu Components: https://www.matthewdevaney.com/power-apps-navigation-menu-component/ 
+
+Security Concept for Dataverse: https://docs.microsoft.com/en-us/power-platform/admin/wp-security-cds
